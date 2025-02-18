@@ -13,8 +13,8 @@ entrada = input("Escribe una palabra ")
 valor0 = (entrada).upper()
 
 valor = ord(valor0[0])
-si = "'" + entrada + "'" + "comienza con vocal"
-no =  "'" + entrada + "'" + "no comienza con vocal"
+si = "'" + entrada + "'" + " comienza con vocal"
+no =  "'" + entrada + "'" + " no comienza con vocal"
 
 if valor == ord("A") or valor == ord("E") or valor == ord("I") or valor == ord("O") or valor == ord("U"):
     salida = si
