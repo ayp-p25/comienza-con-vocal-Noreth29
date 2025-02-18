@@ -19,7 +19,7 @@ no =  "'" + entrada + "'" + " no comienza con vocal"
 if valor == ord("A") or valor == ord("E") or valor == ord("I") or valor == ord("O") or valor == ord("U"):
     salida = si
 
-elif valor == ord("Á") or valor == ord("É") or valor == ord("Í") or valor == ord("Ó") or valor == ord("Ú"):
+elif valor == ord("Á") or valor == ord("É") or valor == ord("Í") or valor == ord("Ó") or valor == ord("Ú") or valor == ord("Ü"):
     salida = si
 
 else:
